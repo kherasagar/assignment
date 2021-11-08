@@ -38,6 +38,7 @@ import './InputContainer.scss';
           <input type="text" placeholder="Letter" onChange={e => setLetter(e.target.value)} />
           <input type="button" onClick={handleClick} value='Get Transcripts' disabled={isDisabled} />
         </div>
+        {transcript.loading || seq.loading ? <p className='text-center'>Loading...</p> :
         <Router>
           <Navbar />
           <Switch>
@@ -57,6 +58,7 @@ import './InputContainer.scss';
               />
           </Switch>
         </Router>
+        }
       </>
     );
 };

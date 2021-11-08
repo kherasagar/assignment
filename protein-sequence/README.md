@@ -14,7 +14,7 @@ The project Template can be used to build bigger projects
 ## Live Application URL
 
 ### 
-This URL has the application deployed in
+This URL has the application deployed in https://kherasagar.github.io/protein-sequence
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ npm install -g create-react-app
 ```
 ## Live Application URL
 
-The Application is deployed in 
+The Application is deployed in https://kherasagar.github.io/protein-sequence
 
 Click on the link to see the application
 
@@ -85,9 +85,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 #### Main Components
 
-1. ****InputContainer Component : This Component is used to take inputs like Gene Symbol, Position and Amino acid letter from user to get Transcript details.
+1. **InputContainer Component** : This Component is used to take inputs like Gene Symbol, Position and Amino acid letter from user to get Transcript details.
 
-2. ****TranscriptContainer Component : This Component Displays the details of the entered values bu user. This Component gets its data from protein sequence related apis. 
+2. **TranscriptContainer Component** : This Component Displays the details of the entered values bu user. This Component gets its data from protein sequence related apis. 
 
 #### HTTP client
 

@@ -69,13 +69,11 @@ export const TranscriptContainer = (props: any) => {
 );
   
   return (
-    transcript.error || seq.error ? <p className='text-center'>Failed to load transcripts. Please tray again.</p> :
-    transcript.loading || seq.loading ? 
-      <p className='text-center'>Loading...</p> : 
-        data?.length === 0 ? 
-          <p className='text-center'>No data available.</p> :
-            <>
+    transcript.error || seq.error ? <p className='text-center'>Failed to load transcripts. Please tray again.</p> : 
+      data?.length === 0 ? 
+        <p className='text-center'>No data available.</p> :
+          <>
             {listItems}
-            </>
+          </>
   );
 };
