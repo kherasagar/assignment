@@ -95,6 +95,7 @@ The application has just two urls default which shows transcripts for selected v
 #### APIs
 
 For APIs response, I have used thunks to allow actions to return promises - https://github.com/reduxjs/redux-thunk
+
 I have also used a middleware to handle promise states. It will automatically create **PENDING, FULFILLED and REJECTED** actions - https://github.com/pburtchaell/redux-promise-middleware
 
 The application has just two APIs
