@@ -94,6 +94,9 @@ The application has just two urls default which shows transcripts for selected v
 
 #### APIs
 
+For APIs response, I have used thunks to allow actions to return promises - https://github.com/reduxjs/redux-thunk
+I have also used a middleware to handle promise states. It will automatically create **PENDING, FULFILLED and REJECTED** actions - https://github.com/pburtchaell/redux-promise-middleware
+
 The application has just two APIs
 
 1. **http://rest.ensembl.org/lookup/symbol/homsap/BRAF.json?;expand=1** : allows you to provide list of transcript and additional information about a gene by its symbol - in this example the species in question is homsap and the gene symbol is BRAF. : This Component is used to take inputs like Gene Symbol, Position and Amino acid letter from user to get Transcript details.
