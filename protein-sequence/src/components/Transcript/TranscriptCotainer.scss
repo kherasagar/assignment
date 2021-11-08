@@ -1,0 +1,33 @@
+.transcript {
+  margin: 20px 60px;
+}
+
+.pagination {
+  margin-top: 20px;
+  column-gap: 25px;
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 3px solid red;
+}
