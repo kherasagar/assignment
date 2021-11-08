@@ -101,7 +101,7 @@ The application has just two urls default which shows transcripts for selected v
 
 The application has just two APIs
 
-1. **http://rest.ensembl.org/lookup/symbol/homsap/BRAF.json?;expand=1** : allows you toprovide list of transcript and additional information about a gene by its symbol - in this example the species in question is homsap and the gene symbol is BRAF. : This Component is used to take inputs like Gene Symbol, Position and Amino acid letter from user to get Transcript details.
+1. **http://rest.ensembl.org/lookup/symbol/homsap/BRAF.json?;expand=1** : allows you to provide list of transcript and additional information about a gene by its symbol - in this example the species in question is homsap and the gene symbol is BRAF. : This Component is used to take inputs like Gene Symbol, Position and Amino acid letter from user to get Transcript details.
 
 2. **http://rest.ensembl.org/sequence/id/ENST00000496384.json** : allows you to provide the detail information of a transcript including Amino Acid Letter Sequence by its id. : This Component Displays the details of the entered values bu user. This Component gets its data from protein sequence related apis. 
 
